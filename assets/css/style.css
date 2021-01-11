@@ -18,3 +18,9 @@
 /* #Accueil{
   border:3px solid blue;
 } */
+
+#map {
+    position: absolute;
+    width: 100%;
+    height: 33%;
+}
