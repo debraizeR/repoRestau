@@ -16,13 +16,14 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css" />
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
-	<link rel="stylesheet" type="text/css"
-		href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
 	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-		<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" />
 	<title>La Marmite de Mamie</title>
 </head>
 
@@ -31,55 +32,41 @@
 		<div class="row">
 			<div class="col">
 				<div id="banner" class="text-center">
-					<img src="assets/img/banniere.png" alt="facade du restaurant"
-						class="img-fluid center-block" /><br />
+					<img src="assets/img/banniere.png" alt="facade du restaurant" class="img-fluid center-block" /><br />
 				</div>
 			</div>
 		</div>
 	</section>
-		<section class="sticky-top">
-			<div class="row">
-				<div class="col">
-					<nav class="navbar navbar-expand-lg navbar-dark">
-						<div class="container-fluid" id="nav_bar">
-							<a class="navbar-brand active " id="lien_accueil" href="#Accueil">Accueil</a>
-							<button
-								class="navbar-toggler"
-								type="button"
-								data-bs-toggle="collapse"
-								data-bs-target="#navbarSupportedContent"
-								aria-controls="navbarSupportedContent"
-								aria-expanded="false"
-								aria-label="Toggle navigation"
-							>
-								<span class="navbar-toggler-icon"></span>
-							</button>
-							<div class="collapse navbar-collapse" id="navbarSupportedContent">
-								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-									<li class="nav-item dropdown">
-										<a
-											class="nav-link dropdown-toggle"
-											href="#"
-											id="navbarDropdown"
-											role="button"
-											data-bs-toggle="dropdown"
-											aria-expanded="false"
-										>
-											Menus</a
-										>
-										<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-											<li>
-												<a class="dropdown-item" href="#Carte_Menus">Carte</a>
-											</li>
-											<li>
-												<a class="dropdown-item" href="#Carte_Menus">Menus</a>
-											</li>
+	<section class="sticky-top">
+		<div class="row">
+			<div class="col">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<div class="container-fluid" id="nav_bar">
+						<a class="navbar-brand active " id="lien_accueil" href="#Accueil">Accueil</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+										data-bs-toggle="dropdown" aria-expanded="false">
+										Menus</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li>
+											<a class="dropdown-item" href="#Carte_Menus">Carte</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#Carte_Menus">Menus</a>
+										</li>
 
-										</ul>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#Historical">A propos</a>
-									</li>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#Historical">A propos</a>
+								</li>
 
 								<li class="nav-item">
 									<a class="nav-link" href="#Legal_mentions">Mentions Légales</a>
@@ -98,9 +85,12 @@
 			</div>
 		</div>
 	</section>
-	<p class="animation1">Nous fermons nos portes pendant le mois de janvier!<br> Nous reviendrons au cours du mois de février 2021 pour de nouvelles aventures...
-		<hr id="hrAnimation1">
-	</p>
+	<div id="divAnimation">
+		<p class="animation1">Nous fermons nos portes pendant le mois de janvier!<br> Nous reviendrons au cours du mois de
+			février 2021 pour de nouvelles aventures...
+			<hr id="hrAnimation1">
+		</p>
+	</div>
 	<div class="container" id="corpsPage">
 		<!--   Carrousel et aside coordonnées  -->
 
@@ -117,32 +107,30 @@
 										<img src="assets/img/pizza.jpg" class="carouselImage d-block w-100" alt="...">
 									</div>
 									<div class="carousel-item">
-										<img src="assets/img/fruitdemer.jpg" class=" carouselImage d-block w-100"
-											alt="...">
+										<img src="assets/img/fruitdemer.jpg" class=" carouselImage d-block w-100" alt="...">
 									</div>
 									<div class="carousel-item">
 										<img src="assets/img/pate.png" class=" carouselImage d-block w-100" alt="...">
 									</div>
 								</div>
-							
-							<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-								data-bs-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleControls" role="button"
-								data-bs-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="visually-hidden">Next</span>
-							</a>
-						</div>
+
+								<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="visually-hidden">Next</span>
+								</a>
+							</div>
 						</div>
 						<div class="col-lg-6 pt-4 pt-lg-0">
 							<div class="card" style="width: auto;">
 								<div id='map'></div>
 								<div class="card-body">
 
-									<p class="card-text"> <i class="fas fa-home fa-xs"></i> 31 Rue du Général Faidherbe, 76600 Le Havre</p>
+									<p class="card-text"> <i class="fas fa-home fa-xs"></i> 31 Rue du Général Faidherbe, 76600 Le Havre
+									</p>
 								</div>
 								<ul class="list-group list-group-flush">
 									<li class="list-group-item"><i class="fas fa-phone-alt fa-xs"></i> 02 35 42 78 72</li>
@@ -150,7 +138,7 @@
 										<img class="small" src="assets/img/uber.png">
 										<img class="small" src="assets/img/justeat.png">
 										<img class="small" src="assets/img/facebook.png">
-											
+
 									</li>
 
 								</ul>
@@ -175,9 +163,8 @@
 								<!--Creation d'un menu Accordion pour les cartes-->
 								<div class="accordion-item">
 									<h4 class="accordion-header" id="flush-Entree">
-										<button class="accordion-button collapsed" type="button"
-											data-bs-toggle="collapse" data-bs-target="#flush-collapseEntree"
-											aria-expanded="false" aria-controls="flush-collapseEntree">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+											data-bs-target="#flush-collapseEntree" aria-expanded="false" aria-controls="flush-collapseEntree">
 											Carte des entrées
 										</button>
 									</h4>
@@ -190,14 +177,13 @@
 								</div>
 								<div class="accordion-item">
 									<h4 class="accordion-header" id="flush-Plat">
-										<button class="accordion-button collapsed" type="button"
-											data-bs-toggle="collapse" data-bs-target="#flush-collapsePlat"
-											aria-expanded="false" aria-controls="flush-collapsePlat">
-											Carte des plats 
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+											data-bs-target="#flush-collapsePlat" aria-expanded="false" aria-controls="flush-collapsePlat">
+											Carte des plats
 										</button>
 									</h4>
-									<div id="flush-collapsePlat" class="accordion-collapse collapse"
-										aria-labelledby="flush-headingPlat" data-bs-parent="#accordionFlushCartes">
+									<div id="flush-collapsePlat" class="accordion-collapse collapse" aria-labelledby="flush-headingPlat"
+										data-bs-parent="#accordionFlushCartes">
 										<div class="accordion-body">
 											<img src="assets\img\cartePlat.png" />
 										</div>
@@ -205,9 +191,9 @@
 								</div>
 								<div class="accordion-item">
 									<h4 class="accordion-header" id="flush-headingSaladeMer">
-										<button class="accordion-button collapsed" type="button"
-											data-bs-toggle="collapse" data-bs-target="#flush-collapseSaladeMer"
-											aria-expanded="false" aria-controls="flush-collapseSaladeMer">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+											data-bs-target="#flush-collapseSaladeMer" aria-expanded="false"
+											aria-controls="flush-collapseSaladeMer">
 											Carte des salades et plats de la mer
 										</button>
 									</h4>
@@ -220,14 +206,13 @@
 								</div>
 								<div class="accordion-item">
 									<h4 class="accordion-header" id="flush-headingPizza">
-										<button class="accordion-button collapsed" type="button"
-											data-bs-toggle="collapse" data-bs-target="#flush-collapsePizza"
-											aria-expanded="false" aria-controls="flush-collapsePizza">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+											data-bs-target="#flush-collapsePizza" aria-expanded="false" aria-controls="flush-collapsePizza">
 											Carte des pizzas
 										</button>
 									</h4>
-									<div id="flush-collapsePizza" class="accordion-collapse collapse"
-										aria-labelledby="flush-headingPizza" data-bs-parent="#accordionFlushCartes">
+									<div id="flush-collapsePizza" class="accordion-collapse collapse" aria-labelledby="flush-headingPizza"
+										data-bs-parent="#accordionFlushCartes">
 										<div class="accordion-body">
 											<img src="assets\img\pizza1.png" />
 										</div>
@@ -245,14 +230,13 @@
 								<!--Creation d'un menu Accordion pour les menus-->
 								<div class="accordion-item">
 									<h4 class="accordion-header" id="flush-Midi">
-										<button class="accordion-button collapsed" type="button"
-											data-bs-toggle="collapse" data-bs-target="#flush-collapseMidi"
-											aria-expanded="false" aria-controls="flush-collapseMidi">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+											data-bs-target="#flush-collapseMidi" aria-expanded="false" aria-controls="flush-collapseMidi">
 											Menu Midi
 										</button>
 									</h4>
-									<div id="flush-collapseMidi" class="accordion-collapse collapse"
-										aria-labelledby="flush-headingMidi" data-bs-parent="#accordionFlushMenu">
+									<div id="flush-collapseMidi" class="accordion-collapse collapse" aria-labelledby="flush-headingMidi"
+										data-bs-parent="#accordionFlushMenu">
 										<div class="accordion-body">
 											<img src="assets\img\menuMidi.png" />
 										</div>
@@ -260,9 +244,9 @@
 								</div>
 								<div class="accordion-item">
 									<h4 class="accordion-header" id="flush-Classique">
-										<button class="accordion-button collapsed" type="button"
-											data-bs-toggle="collapse" data-bs-target="#flush-collapseClassique"
-											aria-expanded="false" aria-controls="flush-collapseClassique">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+											data-bs-target="#flush-collapseClassique" aria-expanded="false"
+											aria-controls="flush-collapseClassique">
 											Menu Classique
 										</button>
 									</h4>
@@ -275,14 +259,13 @@
 								</div>
 								<div class="accordion-item">
 									<h4 class="accordion-header" id="flush-headingCarte">
-										<button class="accordion-button collapsed" type="button"
-											data-bs-toggle="collapse" data-bs-target="#flush-collapseCarte"
-											aria-expanded="false" aria-controls="flush-collapseCarte">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+											data-bs-target="#flush-collapseCarte" aria-expanded="false" aria-controls="flush-collapseCarte">
 											Menu à la Carte
 										</button>
 									</h4>
-									<div id="flush-collapseCarte" class="accordion-collapse collapse"
-										aria-labelledby="flush-headingCarte" data-bs-parent="#accordionFlushMenu">
+									<div id="flush-collapseCarte" class="accordion-collapse collapse" aria-labelledby="flush-headingCarte"
+										data-bs-parent="#accordionFlushMenu">
 										<div class="accordion-body">
 											<img src="assets\img\menuCarte.png" />
 										</div>
@@ -290,9 +273,8 @@
 								</div>
 								<div class="accordion-item">
 									<h4 class="accordion-header" id="flush-headingEnfant">
-										<button class="accordion-button collapsed" type="button"
-											data-bs-toggle="collapse" data-bs-target="#flush-collapseEnfant"
-											aria-expanded="false" aria-controls="flush-collapseEnfant">
+										<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+											data-bs-target="#flush-collapseEnfant" aria-expanded="false" aria-controls="flush-collapseEnfant">
 											Menu "des chouchoux" (Menu Enfant)
 										</button>
 									</h4>
@@ -332,15 +314,15 @@
 
 	<!--      Partie Nourhène  début   -->
 	<br>
-	<section id="Contacts"class="container">
+	<section id="Contacts" class="container">
 
 		<div class="row">
-		
-				<div class="col-lg-7 col-1  border border-danger  mx-lg-3 p-5">
-					<div class="h2" class="titleform">Formulaire de Contact</div>
 
-					<form>
-						<div class="h2">Vos coordonnées</div><label for="firstname">Nom :</label>
+			<div class="col-lg-7 col-1  border border-danger  mx-lg-3 p-5">
+				<div class="h2" class="titleform">Formulaire de Contact</div>
+
+				<form>
+					<div class="h2">Vos coordonnées</div><label for="firstname">Nom :</label>
 					<input type="text" id="firstname" name="firstname" placeholder="FREDJ" required>
 					<p id="pfirstname"></p>
 
@@ -359,33 +341,33 @@
 					<textarea id="message" name="message" rows="5" cols="33"></textarea>
 					<br>
 					<button class="btn-danger" id="sendmessage" onclick="sendmessage()">Envoyer</button>
-		</form>
+				</form>
 
-				</div>
-				<div class="col-lg-4 col-1  border border-danger mx-lg-3 p-5" id="Avis">
-					<h2>Avis consommateurs</h2>
-					<!--      Partie à ?????????????   début   -->
-					La Marmite de Mamie au Havre, est une brasserie aux couleurs chaudes,
-					dans le quartier St François. La carte met à l’honneur la cuisine
-					française familiale traditionnelle. Comme par exemple en hiver, le Pot
-					au feu, le Cassoulet et les soupes, ou bien au printemps / été, le
-					poulet rôti, la blanquette de veau, le boudin noir aux pommes, les
-					moules frites etc… Ici l’ambiance est conviviale et sympathique, on aime
-					y prendre son temps.<br />
-					Enfin, un service en continue est proposé entre le déjeuner et le dîner.
-					On peut y boire un verre ou se restaurer avec une carte Snack : Croque
-					Monsieur, Sandwich et Glaces.<br />
+			</div>
+			<div class="col-lg-4 col-1  border border-danger mx-lg-3 p-5" id="Avis">
+				<h2>Avis consommateurs</h2>
+				<!--      Partie à ?????????????   début   -->
+				La Marmite de Mamie au Havre, est une brasserie aux couleurs chaudes,
+				dans le quartier St François. La carte met à l’honneur la cuisine
+				française familiale traditionnelle. Comme par exemple en hiver, le Pot
+				au feu, le Cassoulet et les soupes, ou bien au printemps / été, le
+				poulet rôti, la blanquette de veau, le boudin noir aux pommes, les
+				moules frites etc… Ici l’ambiance est conviviale et sympathique, on aime
+				y prendre son temps.<br />
+				Enfin, un service en continue est proposé entre le déjeuner et le dîner.
+				On peut y boire un verre ou se restaurer avec une carte Snack : Croque
+				Monsieur, Sandwich et Glaces.<br />
 
-					Animaux acceptés : oui<br />
-					Cuisine traditionnelle : oui<br />
+				Animaux acceptés : oui<br />
+				Cuisine traditionnelle : oui<br />
 
-	<!--      Partie Nourhène  FIN   -->
+				<!--      Partie Nourhène  FIN   -->
 	</section>
 	<!--     Avis consommateurs  -->
 
 	</div>
 
-	<footer id="Legal_mentions" style="text-align: center;">
+	<footer id="Legal_mentions" style="text-align: center; margin-top: 20px;">
 		<div class="container-fluid justify-content-center">
 			<!--Section mentions légales etc-->
 			<p>
@@ -411,7 +393,6 @@
 						Editeur du site : BARBIER Cynthia<br>
 
 						<h5>Conception</h5>
-
 						Le site a été conçu et réalisé par l'équipe RestauLaManu.
 					</p>
 				</div>
@@ -420,11 +401,9 @@
 			<div class="collapse" id="collapseCredits">
 				<div class="card card-body">
 					Crédits photos : <a
-						href="https://www.facebook.com/la.marmite.de.mamie/">https://www.facebook.com/la.marmite.de.mamie/</a>
+						href="https://www.facebook.com/la.marmite.de.mamie/" target="blank_">https://www.facebook.com/la.marmite.de.mamie/</a>
 				</div>
 			</div>
-
-			et les icones FB insta etc....
 		</div>
 	</footer>
 
@@ -447,4 +426,5 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/scriptform.js"></script>
 </body>
+
 </html>
