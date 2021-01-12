@@ -49,6 +49,31 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
   width: 100%;
   height: 300px;
   position: relative;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0; 
+}
+/* média query pour la map => reduction de taille sur modele sm */
+@media (max-width: 992px) {
+  #map {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin:0;
+    padding:0; 
+  }
+ }
+.small{
+ width: 50px;
+height: 50px;}
+
+
+/*    ********** css formulaire **********  */
+#Contact {
+  border: 3px solid rgb(205, 24, 31);
+  background-color: silver;
+}
+
+#btnsubmit {
+  color: rgb(205, 24, 31);
+  border: silver;
 }
