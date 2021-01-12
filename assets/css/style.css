@@ -12,7 +12,7 @@
 #corpsPage {
   max-width: 85%;
   text-align: justify;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 body{
   font-family: Orkney_regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,13 +32,13 @@ body{
 #nav_bar {
   background-color: rgb(205, 24, 31); /* couleur fond rouge  */
   opacity:1;
-  justify-content: center !important; /* pour centrage des liens */
+  justify-content: center; /* pour centrage des liens // A verifier */
 }
 #lien_accueil{
 padding-right: 10%; /* pour centrage joli  du lien Accueil */
 }
 .navbar-nav {
-  text-align: center; /* pour centrage des liens */
+  text-align: center;    /* pour centrage des liens */
   margin: auto;
 }
 

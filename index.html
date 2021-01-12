@@ -42,7 +42,7 @@
 			<div class="col">
 				<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container-fluid" id="nav_bar">
-						<a class="navbar-brand active " id="lien_accueil" href="#Accueil">Accueil</a>
+						<a class="navbar-brand active" href="#Accueil">Accueil</a>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 							aria-label="Toggle navigation">
@@ -148,6 +148,7 @@
 				</div>
 
 				<!--      Partie Alexis  FIN  -->
+			</div>
 		</section>
 		<!--    Menus et cartes variées-->
 		<section id="Carte_Menus">
@@ -314,59 +315,49 @@
 				<!--   FIN partie Véro 2 -->
 			</div>
 		</section>
-		<!--  Formulaire de contact et avis consommateurs     -->
 		<br>
-		<!--      Partie Nourhène  début   -->
+		<!--  Formulaire de contact et avis consommateurs     -->
 
 		<section id="Contacts" class="container">
-			<div class="row" >
+			<div class="row">
 
+				<!--      Partie Nourhène  début   -->
 				<div id="colform" class="col-lg-7 col-12  border border-danger  mx-lg-3 p-5">
-					<div class="h2" class="titleform">Formulaire de Contact</div>
+					<h2>Formulaire de Contact</h2><br>
 
 					<form>
-						<div class="h2">Vos coordonnées</div><label for="firstname">Nom :</label>
-						<input type="text" id="firstname" name="firstname" placeholder="FREDJ" required>
+						<div class="h2">Vos coordonnées</div>
+						<label for="firstname">Nom :</label>
+						<input type="text" id="firstname" name="firstname" placeholder="EVERGREEN" required>
 						<p id="pfirstname"></p>
-
-
 						<label for="lastname"> Prenom :</label>
-						<input type="text" id="lastname" name="lastname" placeholder="Nourhene" required>
+						<input type="text" id="lastname" name="lastname" placeholder="Katniss" required>
 						<p id="plastname"></p>
-						<label for="email">adresse mail :</label>
-						<input type="email" id="email" name="email" placeholder="XXXX@wwww.com" required>
+						<label for="email">Adresse mail :</label>
+						<input type="email" id="email" name="email" placeholder="xxxxx@aaa.com" required>
 						<p id="pemail"></p>
 						<div class="h3">Votre Message :</div>
-						<label for="object">objet :</label>
+						<label for="object">Objet :</label><br>
 						<input type="text" id="object" name="object" required>
 						<p id="pobject"></p>
-						<label for="message">Votre message:</label>
+						<label for="message">Votre message:</label><br>
 						<textarea id="message" name="message" rows="5" cols="33"></textarea>
-						<br>
+						<br><br>
 						<button class="btn-danger" id="sendmessage" onclick="sendmessage()">Envoyer</button>
 					</form>
-
-				</div>
-				<div id="colavis" class="col-lg-4 col-12  border border-danger mx-lg-3 p-5" id="Avis">
-					<h2>Avis consommateurs</h2>
-					<!--      Partie à ?????????????   début   -->
-					La Marmite de Mamie au Havre, est une brasserie aux couleurs chaudes,
-					dans le quartier St François. La carte met à l’honneur la cuisine
-					française familiale traditionnelle. Comme par exemple en hiver, le Pot
-					au feu, le Cassoulet et les soupes, ou bien au printemps / été, le
-					poulet rôti, la blanquette de veau, le boudin noir aux pommes, les
-					moules frites etc… Ici l’ambiance est conviviale et sympathique, on aime
-					y prendre son temps.<br />
-					Enfin, un service en continue est proposé entre le déjeuner et le dîner.
-					On peut y boire un verre ou se restaurer avec une carte Snack : Croque
-					Monsieur, Sandwich et Glaces.<br />
-
-					Animaux acceptés : oui<br />
-					Cuisine traditionnelle : oui<br />
-
 					<!--      Partie Nourhène  FIN   -->
+					<!--      Partie avis de consommateurs debut  -->
+				</div>
+				<div id="colavis" class="col-lg-4 col-12  border border-danger mx-lg-3 p-5" id="Avis" style="align-items: center;">
+					<h2>Avis consommateurs</h2><br>
+					<!--      Partie avis de consommateurs  fin  -->
+			<a href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d10028004-Reviews-La_Marmite_De_Mamie-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"	title="avis tripadvisor" target="blank_"><img alt="logo tripadvisor" src="assets/img/Logo_Tripadvisor.png" width="190px" height="auto"></a>	<br><br>
+			<a href="https://normandieresto.com/restaurant/marmite-de-mamie-le-havre/"	title="avis Normandie Restau" target="blank_"><img alt="logo Normandie Restau" src="assets/img/Logo_NormandieResto.png" width="180px" height="auto"></a>	<br><br>
+			<a href="https://www.eat-list.fr/le-havre-76600/brasserie-6/la-marmite-de-mamie-82829"	title="avis Eat List" target="blank_"><img alt="logo avis Eat List" src="assets/img/logo-Eatlist.png" width="180px" height="auto"></a>	<br><br>
+			<a href="https://www.thefork.fr/restaurant/la-marmite-de-mamie-r363373"	title="avis The Fork" target="blank_"><img alt="logo avis  The Fork" src="assets/img/logo_TheFork.png" width="180px" height="auto"></a>	<br><br>
+			<a href="https://www.lehavre-etretat-tourisme.com/fr/fiche/le-havre/la-marmite-de-mamie_TFORESNOR076V51601T/"	title="avis Le Havre Etretat Tourisme" target="blank_"><img alt="logo avis  Le Havre Etretat Tourisme" src="assets/img/logo-havre-etretat.png" width="160px" height="auto"></a>	<br><br>
+				</div>
 		</section>
-		<!--     Avis consommateurs  -->
 
 	</div>
 	<footer id="Legal_mentions" style="text-align: center; margin-top: 20px;">
