@@ -17,7 +17,7 @@
 body{
   font-family: Orkney_regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:brown;
-  /* background-color: rgba(243, 208, 10, 0.972); /* couleur soutenue */
+  /* background-color: rgba(255, 217, 4, 0.972);; /* couleur soutenue */
   background-color: rgb(255, 196, 0, 0.6); /* couleur pastel  */
 }
 
@@ -64,7 +64,7 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
   color:rgb(205, 24, 31);
 }
 #divAnimation{
-  background-color: rgba(243, 208, 10, 0.972);
+  background-color: rgba(255, 217, 4, 0.972);
  padding-top: 0.625em;
  line-height: 0.938em;
 }
@@ -93,10 +93,17 @@ height: 50px;}
 
 #Contacts {
 
-  background-color: white;
+  background-color: rgba(255, 217, 4, 0.972);;
 }
 /*    ********** css formulaire **********  */
-
+#colform , #colavis{
+  background-color: white;
+  margin: 20px 0px;
+}
+#colapropos{
+  background-color: rgba(255, 217, 4, 0.972);;
+  padding: 1.250em;
+}
 
 #sendmessage {
   border: silver;
