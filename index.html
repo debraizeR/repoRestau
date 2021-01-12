@@ -24,18 +24,19 @@
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<title>La Marmite de Mamie</title>
 </head>
+
 <body>
-			<section >
-			<div class="row">
-				<div class="col">
-					<div id="banner" class="text-center">
-						<img src="assets/img/banniere.png" alt="facade du restaurant"
-							class="img-fluid center-block" /><br />
-					</div>
+	<section>
+		<div class="row">
+			<div class="col">
+				<div id="banner" class="text-center">
+					<img src="assets/img/banniere.png" alt="facade du restaurant"
+						class="img-fluid center-block" /><br />
 				</div>
 			</div>
-			<!---   nav bar      -->
-		</section>
+		</div>
+		<!---   nav bar      -->
+	</section>
 	</div>
 	<section class="sticky-top">
 		<div class="row">
@@ -91,21 +92,17 @@
 		</div>
 	</section>
 
-		<div class="container" id="corpsPage">
-			<!--   Carrousel et aside coordonnées  -->
-			
-				<section id="carrousel&Contacts">
-				<div class="row">
+	<div class="container" id="corpsPage">
+		<!--   Carrousel et aside coordonnées  -->
+
+		<section id="carrousel&Contacts">
+			<div class="row">
 				<h2>Carrousel photos plats et aside coordonnées</h2>
 				<!--      Partie Alexis  début  -->
 				<div class="container">
 					<div class="row">
 						<div class="col d-none d-lg-block">
-							<div
-								id="carouselExampleControls"
-								class="carousel slide"
-								data-bs-ride="carousel"
-							>
+							<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 								<div class="carousel-inner">
 									<div class="carousel-item active">
 										<img src="assets/img/pizza.jpg" class="d-block w-100" alt="...">
@@ -130,236 +127,165 @@
 							</a>
 						</div>
 						<div class="col-lg-8  pt-4 pt-lg-0">
-						<div class="card" style="width: auto;">
-							<div id ='map'></div>
-							<div class="card-body">
-	
-							  <p class="card-text">31 Rue du Général Faidherbe, 76600 Le Havre</p>
+							<div class="card" style="width: auto;">
+								<div id='map'></div>
+								<div class="card-body">
+
+									<p class="card-text">31 Rue du Général Faidherbe, 76600 Le Havre</p>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item"> 02 35 42 78 72</li>
+									<li class="list-group-item"> <img class="small" src="assets/img/deliv.jpg"></img>
+										<img class="small" src="assets/img/uber.png"></img>
+										<img class="small" src="assets/img/justeat.png"></img></li>
+
+								</ul>
 							</div>
-							<ul class="list-group list-group-flush">
-							  <li class="list-group-item"> 02 35 42 78 72</li>
-							  <li class="list-group-item"> <img class="small" src="assets/img/deliv.jpg"></img>
-								<img class="small" src="assets/img/uber.png"></img>
-								<img class="small" src="assets/img/justeat.png"></img></li>
-	
-							</ul>
-						  </div>
+						</div>
 					</div>
 				</div>
-			</div>
-				
+
 				<!--      Partie Alexis  FIN  -->
-			</section>
-			<!--    Menus et cartes variées-->
-			<section id="Carte_Menus">
-				<h2>MENUS et CARTES:</h2>
-				<!--   partie Raphaël début -->
-				<div class="row  justify-content-center menuCarte">
-					<div class="col-lg-5 text-center border border-white m-3">
-						<div class="card">
-							<div class="card-body">
-								<h3 class="card-title">Cartes</h3>
+		</section>
+		<!--    Menus et cartes variées-->
+		<section id="Carte_Menus">
+			<h2>MENUS et CARTES:</h2>
+			<!--   partie Raphaël début -->
+			<div class="row  justify-content-center menuCarte">
+				<div class="col-lg-5 text-center border border-white m-3">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Cartes</h3>
 
-								<div class="accordion accordion-flush" id="accordionFlushCartes"> <!--Creation d'un menu Accordion pour les cartes-->
-									<div class="accordion-item">
-										<h4 class="accordion-header" id="flush-Entree">
-											<button
-												class="accordion-button collapsed"
-												type="button"
-												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseEntree"
-												aria-expanded="false"
-												aria-controls="flush-collapseEntree"
-											>
-												Carte des entrées
-											</button>
-										</h4>
-										<div
-											id="flush-collapseEntree"
-											class="accordion-collapse collapse"
-											aria-labelledby="flush-headingEntree"
-											data-bs-parent="#accordionFlushCartes"
-										>
-											<div class="accordion-body">
-												<img src="assets\img\carteEntrée.png" />
-											</div>
+							<div class="accordion accordion-flush" id="accordionFlushCartes">
+								<!--Creation d'un menu Accordion pour les cartes-->
+								<div class="accordion-item">
+									<h4 class="accordion-header" id="flush-Entree">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#flush-collapseEntree"
+											aria-expanded="false" aria-controls="flush-collapseEntree">
+											Carte des entrées
+										</button>
+									</h4>
+									<div id="flush-collapseEntree" class="accordion-collapse collapse"
+										aria-labelledby="flush-headingEntree" data-bs-parent="#accordionFlushCartes">
+										<div class="accordion-body">
+											<img src="assets\img\carteEntrée.png" />
 										</div>
 									</div>
-									<div class="accordion-item">
-										<h4 class="accordion-header" id="flush-Plat">
-											<button
-												class="accordion-button collapsed"
-												type="button"
-												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapsePlat"
-												aria-expanded="false"
-												aria-controls="flush-collapsePlat"
-											>
-												Carte des plats et accompagnements
-											</button>
-										</h4>
-										<div
-											id="flush-collapsePlat"
-											class="accordion-collapse collapse"
-											aria-labelledby="flush-headingPlat"
-											data-bs-parent="#accordionFlushCartes"
-										>
-											<div class="accordion-body">
-												<img src="assets\img\cartePlat.png" />
-											</div>
+								</div>
+								<div class="accordion-item">
+									<h4 class="accordion-header" id="flush-Plat">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#flush-collapsePlat"
+											aria-expanded="false" aria-controls="flush-collapsePlat">
+											Carte des plats et accompagnements
+										</button>
+									</h4>
+									<div id="flush-collapsePlat" class="accordion-collapse collapse"
+										aria-labelledby="flush-headingPlat" data-bs-parent="#accordionFlushCartes">
+										<div class="accordion-body">
+											<img src="assets\img\cartePlat.png" />
 										</div>
 									</div>
-									<div class="accordion-item">
-										<h4 class="accordion-header" id="flush-headingSaladeMer">
-											<button
-												class="accordion-button collapsed"
-												type="button"
-												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseSaladeMer"
-												aria-expanded="false"
-												aria-controls="flush-collapseSaladeMer"
-											>
-												Carte des salades et plats de la mer
-											</button>
-										</h4>
-										<div
-											id="flush-collapseSaladeMer"
-											class="accordion-collapse collapse"
-											aria-labelledby="flush-headingSaladeMer"
-											data-bs-parent="#accordionFlushCartes"
-										>
-											<div class="accordion-body">
-												<img src="assets\img\carteSaladeMer.png" />
-											</div>
+								</div>
+								<div class="accordion-item">
+									<h4 class="accordion-header" id="flush-headingSaladeMer">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#flush-collapseSaladeMer"
+											aria-expanded="false" aria-controls="flush-collapseSaladeMer">
+											Carte des salades et plats de la mer
+										</button>
+									</h4>
+									<div id="flush-collapseSaladeMer" class="accordion-collapse collapse"
+										aria-labelledby="flush-headingSaladeMer" data-bs-parent="#accordionFlushCartes">
+										<div class="accordion-body">
+											<img src="assets\img\carteSaladeMer.png" />
 										</div>
 									</div>
-									<div class="accordion-item">
-										<h4 class="accordion-header" id="flush-headingPizza">
-											<button
-												class="accordion-button collapsed"
-												type="button"
-												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapsePizza"
-												aria-expanded="false"
-												aria-controls="flush-collapsePizza"
-											>
-												Carte des pizzas
-											</button>
-										</h4>
-										<div
-											id="flush-collapsePizza"
-											class="accordion-collapse collapse"
-											aria-labelledby="flush-headingPizza"
-											data-bs-parent="#accordionFlushCartes"
-										>
-											<div class="accordion-body">
-												<img src="assets\img\pizza1.png" />
-											</div>
+								</div>
+								<div class="accordion-item">
+									<h4 class="accordion-header" id="flush-headingPizza">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#flush-collapsePizza"
+											aria-expanded="false" aria-controls="flush-collapsePizza">
+											Carte des pizzas
+										</button>
+									</h4>
+									<div id="flush-collapsePizza" class="accordion-collapse collapse"
+										aria-labelledby="flush-headingPizza" data-bs-parent="#accordionFlushCartes">
+										<div class="accordion-body">
+											<img src="assets\img\pizza1.png" />
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-5 text-center border border-white m-3">
-						<div class="card">
-							<div class="card-body">
-								<h3 class="card-title">Menus</h3>
-								<div class="accordion accordion-flush" id="accordionFlushMenu"> <!--Creation d'un menu Accordion pour les menus-->
-									<div class="accordion-item">
-										<h4 class="accordion-header" id="flush-Midi">
-											<button
-												class="accordion-button collapsed"
-												type="button"
-												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseMidi"
-												aria-expanded="false"
-												aria-controls="flush-collapseMidi"
-											>
-												Menu Midi
-											</button>
-										</h4>
-										<div
-											id="flush-collapseMidi"
-											class="accordion-collapse collapse"
-											aria-labelledby="flush-headingMidi"
-											data-bs-parent="#accordionFlushMenu"
-										>
-											<div class="accordion-body">
-												<img src="assets\img\menuMidi.png" />
-											</div>
+				</div>
+				<div class="col-lg-5 text-center border border-white m-3">
+					<div class="card">
+						<div class="card-body">
+							<h3 class="card-title">Menus</h3>
+							<div class="accordion accordion-flush" id="accordionFlushMenu">
+								<!--Creation d'un menu Accordion pour les menus-->
+								<div class="accordion-item">
+									<h4 class="accordion-header" id="flush-Midi">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#flush-collapseMidi"
+											aria-expanded="false" aria-controls="flush-collapseMidi">
+											Menu Midi
+										</button>
+									</h4>
+									<div id="flush-collapseMidi" class="accordion-collapse collapse"
+										aria-labelledby="flush-headingMidi" data-bs-parent="#accordionFlushMenu">
+										<div class="accordion-body">
+											<img src="assets\img\menuMidi.png" />
 										</div>
 									</div>
-									<div class="accordion-item">
-										<h4 class="accordion-header" id="flush-Classique">
-											<button
-												class="accordion-button collapsed"
-												type="button"
-												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseClassique"
-												aria-expanded="false"
-												aria-controls="flush-collapseClassique"
-											>
-												Menu Classique
-											</button>
-										</h4>
-										<div
-											id="flush-collapseClassique"
-											class="accordion-collapse collapse"
-											aria-labelledby="flush-headingClassique"
-											data-bs-parent="#accordionFlushMenu"
-										>
-											<div class="accordion-body">
-												<img src="assets\img\menuClassique.png" />
-											</div>
+								</div>
+								<div class="accordion-item">
+									<h4 class="accordion-header" id="flush-Classique">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#flush-collapseClassique"
+											aria-expanded="false" aria-controls="flush-collapseClassique">
+											Menu Classique
+										</button>
+									</h4>
+									<div id="flush-collapseClassique" class="accordion-collapse collapse"
+										aria-labelledby="flush-headingClassique" data-bs-parent="#accordionFlushMenu">
+										<div class="accordion-body">
+											<img src="assets\img\menuClassique.png" />
 										</div>
 									</div>
-									<div class="accordion-item">
-										<h4 class="accordion-header" id="flush-headingCarte">
-											<button
-												class="accordion-button collapsed"
-												type="button"
-												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseCarte"
-												aria-expanded="false"
-												aria-controls="flush-collapseCarte"
-											>
-												Menu à la Carte
-											</button>
-										</h4>
-										<div
-											id="flush-collapseCarte"
-											class="accordion-collapse collapse"
-											aria-labelledby="flush-headingCarte"
-											data-bs-parent="#accordionFlushMenu"
-										>
-											<div class="accordion-body">
-												<img src="assets\img\menuCarte.png" />
-											</div>
+								</div>
+								<div class="accordion-item">
+									<h4 class="accordion-header" id="flush-headingCarte">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#flush-collapseCarte"
+											aria-expanded="false" aria-controls="flush-collapseCarte">
+											Menu à la Carte
+										</button>
+									</h4>
+									<div id="flush-collapseCarte" class="accordion-collapse collapse"
+										aria-labelledby="flush-headingCarte" data-bs-parent="#accordionFlushMenu">
+										<div class="accordion-body">
+											<img src="assets\img\menuCarte.png" />
 										</div>
 									</div>
-									<div class="accordion-item">
-										<h4 class="accordion-header" id="flush-headingEnfant">
-											<button
-												class="accordion-button collapsed"
-												type="button"
-												data-bs-toggle="collapse"
-												data-bs-target="#flush-collapseEnfant"
-												aria-expanded="false"
-												aria-controls="flush-collapseEnfant"
-											>
-												Menu "des chouchoux" (Menu Enfant)
-											</button>
-										</h4>
-										<div
-											id="flush-collapseEnfant"
-											class="accordion-collapse collapse"
-											aria-labelledby="flush-headingEnfant"
-											data-bs-parent="#accordionFlushMenu"
-										>
-											<div class="accordion-body">
-												<img src="assets\img\menuEnfant.png" />
-											</div>
+								</div>
+								<div class="accordion-item">
+									<h4 class="accordion-header" id="flush-headingEnfant">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#flush-collapseEnfant"
+											aria-expanded="false" aria-controls="flush-collapseEnfant">
+											Menu "des chouchoux" (Menu Enfant)
+										</button>
+									</h4>
+									<div id="flush-collapseEnfant" class="accordion-collapse collapse"
+										aria-labelledby="flush-headingEnfant" data-bs-parent="#accordionFlushMenu">
+										<div class="accordion-body">
+											<img src="assets\img\menuEnfant.png" />
 										</div>
 									</div>
 								</div>
@@ -368,74 +294,82 @@
 					</div>
 				</div>
 			</div>
-			<!--   FIN partie Raphaël  -->
-		</section>
-		<!--   Présentation et historique-->
-		<section id="Historical">
-			<!--      Partie Véro 2   début   -->
-			<div class="row">
-				<div class="col">
-					<h2>Présentation et historique :</h2>
-					La Marmite de Mamie au Havre, est une brasserie aux couleurs
-					chaudes, dans le quartier St François. La carte met à l’honneur la
-					cuisine française familiale traditionnelle. Comme par exemple en
-					hiver, le Pot au feu, le Cassoulet et les soupes, ou bien au
-					printemps / été, le poulet rôti, la blanquette de veau, le boudin
-					noir aux pommes, les moules frites etc… Ici l’ambiance est
-					conviviale et sympathique, on aime y prendre son temps.
-				</div>
-				<!--   FIN partie Véro 2 -->
+	</div>
+	<!--   FIN partie Raphaël  -->
+	</section>
+	<!--   Présentation et historique-->
+	<section id="Historical">
+		<!--      Partie Véro 2   début   -->
+		<div class="row">
+			<div class="col">
+				<h2>Présentation et historique :</h2>
+				La Marmite de Mamie au Havre, est une brasserie aux couleurs
+				chaudes, dans le quartier St François. La carte met à l’honneur la
+				cuisine française familiale traditionnelle. Comme par exemple en
+				hiver, le Pot au feu, le Cassoulet et les soupes, ou bien au
+				printemps / été, le poulet rôti, la blanquette de veau, le boudin
+				noir aux pommes, les moules frites etc… Ici l’ambiance est
+				conviviale et sympathique, on aime y prendre son temps.
 			</div>
-		</section>
-		<!--  Formulaire de contact  -->
-		<!--      Partie Nourhène  début   -->
-		<section id="Contact">
-			<div class="h2" class="titleform" class="container">Formulaire de Contact</div>
-			<div class="tab-content" id="myTabContent">
-				<div class="tab-pane fade show active" id="identity" role="tabpanel" aria-labelledby="identity-tab">
-					<div>
-						<form>
-							<div class="h2">Vos coordonnées</div>
-							<div class="row">
-								<div class="col col-lg-6 "><label for="firstname">Nom :</label>
-								<input type="text" id="firstname" name="firstname"
-										placeholder="FREDJ" required>
-									<p id="pfirstname"></p>
-								</div>
+			<!--   FIN partie Véro 2 -->
+		</div>
+	</section>
+	<!--  Formulaire de contact  -->
 
-								<div class="col col-lg-6 "><label for="lastname"> Prenom :</label>
-								<input type="text" id="lastname" name="lastname"
-										placeholder="Nourhene" required>
-									<p id="plastname"></p>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col col-lg-6"><label for="email">adresse mail :</label>
-								<input type="email" id="email" name="email"
-										placeholder="XXXX@wwww.com" required>
-									<p id="pemail"></p>
-								</div>
+	<!--      Partie Nourhène  début   -->
+	<br>
+	<section id="Contacts"class="container">
 
-							</div>
-							<div class="row">
-								<div class="h3">Votre Message :</div>
-								<div class="col col-lg-6"><label for="object">objet :</label>
-								<input type="text" id="object" name="object" required>
-									<p id="pobject"></p></div>
-									<div class="col col-lg-6"><label for="message">Votre message
-											:</label>
-									 <textarea id="message" name="message" rows="5"
-											cols="33"></textarea></div>
-									</textarea>
-								</div>
-							
-							<button type="submit" id="btnsubmit">Envoyer</button>
-						</form>
-					</div>
+		<div class="row">
+		
+				<div class="col-lg-7 col-1  border border-danger  mx-lg-3 p-5">
+					<div class="h2" class="titleform">Formulaire de Contact</div>
+
+					<form>
+						<div class="h2">Vos coordonnées</div><label for="firstname">Nom :</label>
+					<input type="text" id="firstname" name="firstname" placeholder="FREDJ" required>
+					<p id="pfirstname"></p>
+
+
+					<label for="lastname"> Prenom :</label>
+					<input type="text" id="lastname" name="lastname" placeholder="Nourhene" required>
+					<p id="plastname"></p>
+					<label for="email">adresse mail :</label>
+					<input type="email" id="email" name="email" placeholder="XXXX@wwww.com" required>
+					<p id="pemail"></p>
+					<div class="h3">Votre Message :</div>
+					<label for="object">objet :</label>
+					<input type="text" id="object" name="object" required>
+					<p id="pobject"></p>
+					<label for="message">Votre message:</label>
+					<textarea id="message" name="message" rows="5" cols="33"></textarea>
+					<br>
+					<button class="btn-danger" id="sendmessage" onclick="sendmessage()">Envoyer</button>
+		</form>
+
 				</div>
-			</div>
-		</section>
-		<!-- la partie de reservation qu'on a annulé 	
+				<div class="col-lg-4 col-1  border border-danger mx-lg-3 p-5" id="Avis">
+					<h2>Avis consommateurs</h2>
+					<!--      Partie à ?????????????   début   -->
+					La Marmite de Mamie au Havre, est une brasserie aux couleurs chaudes,
+					dans le quartier St François. La carte met à l’honneur la cuisine
+					française familiale traditionnelle. Comme par exemple en hiver, le Pot
+					au feu, le Cassoulet et les soupes, ou bien au printemps / été, le
+					poulet rôti, la blanquette de veau, le boudin noir aux pommes, les
+					moules frites etc… Ici l’ambiance est conviviale et sympathique, on aime
+					y prendre son temps.<br />
+					Enfin, un service en continue est proposé entre le déjeuner et le dîner.
+					On peut y boire un verre ou se restaurer avec une carte Snack : Croque
+					Monsieur, Sandwich et Glaces.<br />
+
+					Animaux acceptés : oui<br />
+					Cuisine traditionnelle : oui<br />
+
+				</div>
+		</div>
+		
+	</section>
+	<!-- la partie de reservation qu'on a annulé 	
 							<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><div  class="reservation">  
 								<form>
 									<fieldset id="fieldsetReservation">
@@ -471,44 +405,30 @@
 										</fieldset>
 								</form>
 							</div></div>-->
-		<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">On ne travaille pas c'est
-			le covid</div>
+	<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">On ne travaille pas c'est
+		le covid</div>
 	</div>
 	<!--      Partie Nourhène  FIN   -->
 	</section>
 	<!--     Avis consommateurs  -->
-	<section id="Avis">
-		<h2>Avis consommateurs</h2>
-		<!--      Partie à ?????????????   début   -->
-		La Marmite de Mamie au Havre, est une brasserie aux couleurs chaudes,
-		dans le quartier St François. La carte met à l’honneur la cuisine
-		française familiale traditionnelle. Comme par exemple en hiver, le Pot
-		au feu, le Cassoulet et les soupes, ou bien au printemps / été, le
-		poulet rôti, la blanquette de veau, le boudin noir aux pommes, les
-		moules frites etc… Ici l’ambiance est conviviale et sympathique, on aime
-		y prendre son temps.<br />
-		Enfin, un service en continue est proposé entre le déjeuner et le dîner.
-		On peut y boire un verre ou se restaurer avec une carte Snack : Croque
-		Monsieur, Sandwich et Glaces.<br />
 
-				Animaux acceptés : oui<br />
-				Cuisine traditionnelle : oui<br />
-				<!--      Partie à ?????????????   FIN   -->
-			</section>
-		</div>
-		
-		<footer id="Legal_mentions" style="text-align: center;">
-			<div class="container-fluid justify-content-center"> <!--Section mentions légales etc-->
-				<p>
-					<a data-bs-toggle="collapse" href="#collapseMentions" role="button" aria-expanded="false" aria-controls="collapseMentions">
-					  Mentions légales
-					</a>
-				
-					<div class="collapse" id="collapseMentions">
-						<div class="card card-body">
-							
-							<p><h5>La Marmite de Mamie SARL</h5>
-							
+	</div>
+
+	<footer id="Legal_mentions" style="text-align: center;">
+		<div class="container-fluid justify-content-center">
+			<!--Section mentions légales etc-->
+			<p>
+				<a data-bs-toggle="collapse" href="#collapseMentions" role="button" aria-expanded="false"
+					aria-controls="collapseMentions">
+					Mentions légales
+				</a>
+
+				<div class="collapse" id="collapseMentions">
+					<div class="card card-body">
+
+						<p>
+							<h5>La Marmite de Mamie SARL</h5>
+
 							Siège social : 31 rue General Faidherbe<br>
 							Nom du responsable : BARBIER Cynthia<br>
 							Téléphone : 02 35 42 78 72<br>
@@ -517,51 +437,44 @@
 							Editeur du site : BARBIER Cynthia<br>
 
 							<h5>Conception</h5>
-							
-							Le site a été conçu et réalisé par l'équipe RestauLaManu.
-							</p>
-						</div>
-					</div>
-					<a data-bs-toggle="collapse" href="#collapseCredits" role="button" aria-expanded="false" aria-controls="collapseCredits">
-						Crédits
-					</a>
-					<div class="collapse" id="collapseCredits">
-						<div class="card card-body">
-							Crédits photos : <a href="https://www.facebook.com/la.marmite.de.mamie/">https://www.facebook.com/la.marmite.de.mamie/</a>
-						</div>
-					</div>
-				</p>
-				et les icones FB insta etc....
-			</div>		
-		</footer>
-		
 
-		<!-- Option 1: Bootstrap Bundle with Popper -->
-		<script
-			src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
-			integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
-			crossorigin=""
-		></script>
-		<script
-			type="text/javascript"
-			src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"
-		></script>
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-			crossorigin="anonymous"
-		></script>
-		<script src="assets/js/main.js"></script>
-		<script src="assets/js/scriptform.js"></script>
-	</body>
+							Le site a été conçu et réalisé par l'équipe RestauLaManu.
+						</p>
+					</div>
+				</div>
+				<a data-bs-toggle="collapse" href="#collapseCredits" role="button" aria-expanded="false"
+					aria-controls="collapseCredits">
+					Crédits
+				</a>
+				<div class="collapse" id="collapseCredits">
+					<div class="card card-body">
+						Crédits photos : <a
+							href="https://www.facebook.com/la.marmite.de.mamie/">https://www.facebook.com/la.marmite.de.mamie/</a>
+					</div>
+				</div>
+			</p>
+			et les icones FB insta etc....
+		</div>
+	</footer>
+
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+		integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+		crossorigin=""></script>
+	<script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js">
+	</script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+	</script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/scriptform.js"></script>
+</body>
+
 </html>

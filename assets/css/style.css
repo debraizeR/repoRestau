@@ -40,12 +40,11 @@
  width: 50px;
 height: 50px;}
 
-#Contact {
-  border: 3px solid rgb(205, 24, 31);
-  background-color: silver;
+#Contacts {
+
+  background-color: white;
 }
 
-#btnsubmit {
-  color: rgb(205, 24, 31);
+#sendmessage {
   border: silver;
 }
