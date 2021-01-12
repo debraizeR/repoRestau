@@ -21,61 +21,65 @@
 	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-	<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 	<title>La Marmite de Mamie</title>
 </head>
 
 <body>
-	<div class="container-fluid">
-		<!--- container de page-->
-		<section id="Accueil">
-			<!--  bannière et liens de nav-->
-			<div class="row">
-				<div class="col">
-					<div id="banner" class="text-center">
-						<img src="assets/img/banniere.png" alt="facade du restaurant"
-							class="img-fluid center-block" /><br />
-					</div>
-				</div>
-			</div>
-			<!---   nav bar      -->
-		</section>
-	</div>
-	<section class="sticky-top">
+	<section>
 		<div class="row">
 			<div class="col">
-				<nav class="navbar navbar-expand-lg navbar-dark">
-					<div class="container-fluid" id="nav_bar">
-						<a class="navbar-brand active" href="#Accueil">Accueil</a>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-							aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-										data-bs-toggle="dropdown" aria-expanded="false">
-										Menus</a>
-									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li>
-											<a class="dropdown-item" href="#Carte_Menus">Carte</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#Carte_Menus">Menu</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider" />
-										</li>
-										<li>
-											<a class="dropdown-item" href="#Carte_Menus">Boissons</a>
-										</li>
-									</ul>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#Historical">A propos</a>
-								</li>
+				<div id="banner" class="text-center">
+					<img src="assets/img/banniere.png" alt="facade du restaurant"
+						class="img-fluid center-block" /><br />
+				</div>
+			</div>
+		</div>
+	</section>
+		<section class="sticky-top">
+			<div class="row">
+				<div class="col">
+					<nav class="navbar navbar-expand-lg navbar-dark">
+						<div class="container-fluid" id="nav_bar">
+							<a class="navbar-brand active " id="lien_accueil" href="#Accueil">Accueil</a>
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#navbarSupportedContent"
+								aria-controls="navbarSupportedContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="#"
+											id="navbarDropdown"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Menus</a
+										>
+										<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<li>
+												<a class="dropdown-item" href="#Carte_Menus">Carte</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#Carte_Menus">Menus</a>
+											</li>
+
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#Historical">A propos</a>
+									</li>
 
 								<li class="nav-item">
 									<a class="nav-link" href="#Legal_mentions">Mentions Légales</a>
@@ -99,7 +103,7 @@
 		<!--   Carrousel et aside coordonnées  -->
 
 		<section id="carrousel&Contacts">
-			<div class="row ">
+			<div class="row">
 				<h2>Carrousel photos plats et aside coordonnées</h2>
 				<!--      Partie Alexis  début  -->
 				<div class="container">
@@ -118,27 +122,29 @@
 										<img src="assets/img/pate.png" class=" carouselImage d-block w-100" alt="...">
 									</div>
 								</div>
-								<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-									data-bs-slide="prev">
-									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-									<span class="visually-hidden">Previous</span>
-								</a>
-								<a class="carousel-control-next" href="#carouselExampleControls" role="button"
-									data-bs-slide="next">
-									<span class="carousel-control-next-icon" aria-hidden="true"></span>
-									<span class="visually-hidden">Next</span>
-								</a>
-							</div>
+							
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+								data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls" role="button"
+								data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</a>
 						</div>
-						<div class="col-lg-6  pt-4 pt-lg-0">
+						</div>
+						
+						<div class="col-lg-6 pt-4 pt-lg-0">
 							<div class="card" style="width: auto;">
 								<div id='map'></div>
 								<div class="card-body">
 
-									<p class="card-text">31 Rue du Général Faidherbe, 76600 Le Havre</p>
+									<p class="card-text"> <i class="fas fa-home fa-xs"></i> 31 Rue du Général Faidherbe, 76600 Le Havre</p>
 								</div>
 								<ul class="list-group list-group-flush">
-									<li class="list-group-item"> 02 35 42 78 72</li>
+									<li class="list-group-item"><i class="fas fa-phone-alt fa-xs"></i> 02 35 42 78 72</li>
 									<li class="list-group-item"> <img class="small" src="assets/img/deliv.jpg"></img>
 										<img class="small" src="assets/img/uber.png"></img>
 										<img class="small" src="assets/img/justeat.png"></img></li>
@@ -156,7 +162,7 @@
 			<h2>MENUS et CARTES:</h2>
 			<!--   partie Raphaël début -->
 			<div class="row  justify-content-center menuCarte">
-				<div class="col-lg-5 text-center border border-white m-3">
+				<div class="col-lg-5 text-center border border-white m-1">
 					<div class="card">
 						<div class="card-body">
 							<h3 class="card-title">Cartes</h3>
@@ -227,7 +233,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-5 text-center border border-white m-3">
+				<div class="col-lg-5 text-center border border-white m-1">
 					<div class="card">
 						<div class="card-body">
 							<h3 class="card-title">Menus</h3>
@@ -303,7 +309,7 @@
 		<!--   Présentation et historique-->
 		<section id="Historical">
 			<!--      Partie Véro 2   début   -->
-			<div class="row">
+			<div class="row justify-content-center">
 				<div class="col">
 					<h2>Présentation et historique :</h2>
 					La Marmite de Mamie au Havre, est une brasserie aux couleurs
@@ -313,42 +319,85 @@
 					printemps / été, le poulet rôti, la blanquette de veau, le boudin
 					noir aux pommes, les moules frites etc… Ici l’ambiance est
 					conviviale et sympathique, on aime y prendre son temps.
+					<br>
+						<h3>FONCTIONNALITÉS</h3>  
+						Réservations, Terrasse, Places assises, Chaises hautes disponibles, <br>
+						Sert de l'alcool, Accepte les cartes bancaires, Service de table
 				</div>
 				<!--   FIN partie Véro 2 -->
 			</div>
 		</section>
 		<!--  Formulaire de contact  -->
-		<section id="Contacts">
-			<!--      Partie Nourhène  début   -->
-			<h2>Formulaire de Contact</h2>
-			La Marmite de Mamie au Havre, est une brasserie aux couleurs chaudes,
-			dans le quartier St François. La carte met à l’honneur la cuisine
-			française familiale traditionnelle. Comme par exemple en hiver, le Pot
-			au feu, le Cassoulet et les soupes, ou bien au printemps / été, le
-			poulet rôti, la blanquette de veau, le boudin noir aux pommes, les
-			moules frites etc… Ici l’ambiance est conviviale et sympathique, on aime
-			y prendre son temps.
-			<!--      Partie Nourhène  FIN   -->
-		</section>
-		<!--     Avis consommateurs  -->
-		<section id="Avis">
-			<h2>Avis consommateurs</h2>
-			<!--      Partie à ?????????????   début   -->
-			La Marmite de Mamie au Havre, est une brasserie aux couleurs chaudes,
-			dans le quartier St François. La carte met à l’honneur la cuisine
-			française familiale traditionnelle. Comme par exemple en hiver, le Pot
-			au feu, le Cassoulet et les soupes, ou bien au printemps / été, le
-			poulet rôti, la blanquette de veau, le boudin noir aux pommes, les
-			moules frites etc… Ici l’ambiance est conviviale et sympathique, on aime
-			y prendre son temps.<br />
-			Enfin, un service en continue est proposé entre le déjeuner et le dîner.
-			On peut y boire un verre ou se restaurer avec une carte Snack : Croque
-			Monsieur, Sandwich et Glaces.<br />
+		
+		<!--      Partie Nourhène  début   -->
+		<section id="Contact">
+			<div class="h2" class="titleform" class="container">Formulaire de Contact</div>
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade show active" id="identity" role="tabpanel" aria-labelledby="identity-tab">
+					<div>
+						<form>
+							<div class="h2">Vos coordonnées</div>
+							<div class="row">
+								<div class="col col-lg-6 "><label for="firstname">Nom :</label>
+									<input type="text" id="firstname" name="firstname" placeholder="FREDJ" required>
+									<p id="pfirstname"></p>
+								</div>
 
-			Animaux acceptés : oui<br />
-			Cuisine traditionnelle : oui<br />
-			<!--      Partie à ?????????????   FIN   -->
+								<div class="col col-lg-6 "><label for="lastname"> Prenom :</label>
+									<input type="text" id="lastname" name="lastname" placeholder="Nourhene" required>
+									<p id="plastname"></p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col col-lg-6"><label for="email">adresse mail :</label>
+									<input type="email" id="email" name="email" placeholder="XXXX@wwww.com" required>
+									<p id="pemail"></p>
+								</div>
+
+							</div>
+							<div class="row">
+								<div class="h3">Votre Message :</div>
+								<div class="col col-lg-6"><label for="object">objet :</label>
+									<input type="text" id="object" name="object" required>
+									<p id="pobject"></p>
+								</div>
+								<div class="col col-lg-6"><label for="message">Votre message
+										:</label>
+									<textarea id="message" name="message" rows="5" cols="33"></textarea></div>
+								</textarea>
+							</div>
+
+							<button type="submit" id="btnsubmit">Envoyer</button>
+						</form>
+					</div>
+				</div>
+			</div>
 		</section>
+
+		<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">On ne travaille pas c'est
+			le covid</div>
+	
+	<!--      Partie Nourhène  FIN   -->
+	</section>
+	<!--     Avis consommateurs  -->
+	<section id="Avis">
+		<h2>Avis consommateurs</h2>
+		<!--      Partie à ?????????????   début   -->
+		La Marmite de Mamie au Havre, est une brasserie aux couleurs chaudes,
+		dans le quartier St François. La carte met à l’honneur la cuisine
+		française familiale traditionnelle. Comme par exemple en hiver, le Pot
+		au feu, le Cassoulet et les soupes, ou bien au printemps / été, le
+		poulet rôti, la blanquette de veau, le boudin noir aux pommes, les
+		moules frites etc… Ici l’ambiance est conviviale et sympathique, on aime
+		y prendre son temps.<br />
+		Enfin, un service en continue est proposé entre le déjeuner et le dîner.
+		On peut y boire un verre ou se restaurer avec une carte Snack : Croque
+		Monsieur, Sandwich et Glaces.<br />
+
+		Animaux acceptés : oui<br />
+		Cuisine traditionnelle : oui<br />
+		<!--      Partie à ?????????????   FIN   -->
+	</section>
 	</div>
 
 	<footer id="Legal_mentions" style="text-align: center;">
@@ -358,38 +407,38 @@
 				<a data-bs-toggle="collapse" href="#collapseMentions" role="button" aria-expanded="false"
 					aria-controls="collapseMentions">
 					Mentions légales
-				</a>
-
-				<div class="collapse" id="collapseMentions">
-					<div class="card card-body">
-
-						<p>
-							<h5>La Marmite de Mamie SARL</h5>
-
-							Siège social : 31 rue General Faidherbe<br>
-							Nom du responsable : BARBIER Cynthia<br>
-							Téléphone : 02 35 42 78 72<br>
-							Capital social : 15 000€<br>
-							N° SIRET : 81504581000018<br>
-							Editeur du site : BARBIER Cynthia<br>
-
-							<h5>Conception</h5>
-
-							Le site a été conçu et réalisé par l'équipe RestauLaManu.
-						</p>
-					</div>
-				</div>
-				<a data-bs-toggle="collapse" href="#collapseCredits" role="button" aria-expanded="false"
+				</a> - <a data-bs-toggle="collapse" href="#collapseCredits" role="button" aria-expanded="false"
 					aria-controls="collapseCredits">
 					Crédits
 				</a>
-				<div class="collapse" id="collapseCredits">
-					<div class="card card-body">
-						Crédits photos : <a
-							href="https://www.facebook.com/la.marmite.de.mamie/">https://www.facebook.com/la.marmite.de.mamie/</a>
-					</div>
-				</div>
 			</p>
+			<div class="collapse" id="collapseMentions">
+				<div class="card card-body">
+
+					<p>
+						<h5>La Marmite de Mamie SARL</h5>
+
+						Siège social : 31 rue General Faidherbe<br>
+						Nom du responsable : BARBIER Cynthia<br>
+						Téléphone : 02 35 42 78 72<br>
+						Capital social : 15 000€<br>
+						N° SIRET : 81504581000018<br>
+						Editeur du site : BARBIER Cynthia<br>
+
+						<h5>Conception</h5>
+
+						Le site a été conçu et réalisé par l'équipe RestauLaManu.
+					</p>
+				</div>
+			</div>
+
+			<div class="collapse" id="collapseCredits">
+				<div class="card card-body">
+					Crédits photos : <a
+						href="https://www.facebook.com/la.marmite.de.mamie/">https://www.facebook.com/la.marmite.de.mamie/</a>
+				</div>
+			</div>
+
 			et les icones FB insta etc....
 		</div>
 	</footer>
@@ -411,6 +460,6 @@
 		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
 	</script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/scriptform.js"></script>
 </body>
-
 </html>
