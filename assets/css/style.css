@@ -17,7 +17,9 @@
 body{
   font-family: Orkney_regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:brown;
-  background-color: rgb(255, 196, 0, 0.5)}
+  /* background-color: rgba(243, 208, 10, 0.972); /* couleur soutenue */
+  background-color: rgb(255, 196, 0, 0.5); /* couleur pastel  */
+}
 
   /* img[alt*="facade"]{
     opacity:1;
@@ -28,7 +30,7 @@ body{
   width: auto;
 }
 #nav_bar {
-  background-color: rgb(205, 24, 31);
+  background-color: rgb(205, 24, 31); /* couleur fond rouge  */
   opacity:1;
   justify-content: center !important; /* pour centrage des liens */
   /* position:absolute 0px 0px; */
@@ -42,8 +44,27 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
   margin: auto;
   /* padding-right: 20%; */
 }
-
-
+/*  css animation phrase   */ 
+@keyframes defile {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.animation1 {
+  animation: defile 5s infinite alternate;
+  font-size: 13px;
+  color: rgb(205, 24, 31);
+  /* font-weight: bold; */
+}
+#Animation1{   /*hr de séparation avec le corps */
+  height: 3px; 
+  color:rgb(205, 24, 31);
+}
 /*      CSS pour map   */
 #map {
   width: 100%;
@@ -66,14 +87,13 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
  width: 50px;
 height: 50px;}
 
-
-/*    ********** css formulaire **********  */
 #Contacts {
-  border: 3px solid rgb(205, 24, 31);
-  background-color: silver;
-}
 
-#btnsubmit {
-  color: rgb(205, 24, 31);
+  background-color: white;
+}
+/*    ********** css formulaire **********  */
+
+
+#sendmessage {
   border: silver;
 }
