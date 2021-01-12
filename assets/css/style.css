@@ -12,6 +12,7 @@
 #corpsPage {
   max-width: 85%;
   text-align: justify;
+  border: 2px solid red;
 }
 body{
   font-family: Orkney_regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
