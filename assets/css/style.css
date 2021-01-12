@@ -1,28 +1,54 @@
-
-/* #banner{
-  position: relative;
-} */
-#nav_bar{
-  background-color: rgb(205,24,31);
-  /* position:absolute 0px 0px; */
-  /* text-align: right ; */
+/*    css  page  globale */
+@font-face {
+  font-family: 'Orkney_regular';
+  src: url('../fonts/orkney-regular-webfont.eot');
+  src: url('../fonts/orkney-regular-webfont.eot?#iefix') format('embedded-opentype'),  
+        url('../fonts/orkney-regular-webfont.woff') format('woff'),
+        url('../fonts/orkney-regular-webfont.ttf') format('truetype'), 
+        url('../fonts/orkney-regular-webfont.svg#Orkney_regular') format('svg');
 }
-#corpsPage
-{
+
+/*, url('../fonts/orkney-light-webfont.eot'), url('../fonts/orkney-light-webfont.svg') url('../fonts/orkney-light-webfont.ttf'), url('../fonts/orkney-light-webfont.woff')*/
+
+#corpsPage {
   max-width: 85%;
   text-align: justify;
 }
-/* #banner img{
-  width:100%;
-} */
-/* #Accueil{
-  border:3px solid blue;
-} */
+body{
+  font-family: Orkney_regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:brown;
+  background-color: rgb(255, 196, 0, 0.5)}
 
+  /* img[alt*="facade"]{
+    opacity:1;
+  } */
+
+/*  css Nav bar et bannière  */
+#navbarSupportedContent{
+  width: auto;
+}
+#nav_bar {
+  background-color: rgb(205, 24, 31);
+  opacity:1;
+  justify-content: center !important; /* pour centrage des liens */
+  /* position:absolute 0px 0px; */
+  /* text-align: right ; */
+}
+#lien_accueil{
+padding-right: 10%; /* pour centrage joli  du lien Accueil */
+}
+.navbar-nav {
+  text-align: center; /* pour centrage des liens */
+  margin: auto;
+  /* padding-right: 20%; */
+}
+
+
+/*      CSS pour map   */
 #map {
   width: 100%;
   height: 300px;
   position: relative;
-  margin:0;
-  padding:0; 
+  margin: 0;
+  padding: 0;
 }
