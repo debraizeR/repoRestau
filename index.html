@@ -35,44 +35,50 @@
 				</div>
 			</div>
 		</div>
-		<!---   nav bar      -->
 	</section>
-	
-	<section class="sticky-top">
-		<div class="row">
-			<div class="col">
-				<nav class="navbar navbar-expand-lg navbar-dark">
-					<div class="container-fluid" id="nav_bar">
-						<a class="navbar-brand active" href="#Accueil">Accueil</a>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-							data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-							aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-										data-bs-toggle="dropdown" aria-expanded="false">
-										Menus</a>
-									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li>
-											<a class="dropdown-item" href="#Carte_Menus">Carte</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#Carte_Menus">Menu</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider" />
-										</li>
-										<li>
-											<a class="dropdown-item" href="#Carte_Menus">Boissons</a>
-										</li>
-									</ul>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#Historical">A propos</a>
-								</li>
+		<section class="sticky-top">
+			<div class="row">
+				<div class="col">
+					<nav class="navbar navbar-expand-lg navbar-dark">
+						<div class="container-fluid" id="nav_bar">
+							<a class="navbar-brand active " id="lien_accueil" href="#Accueil">Accueil</a>
+							<button
+								class="navbar-toggler"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#navbarSupportedContent"
+								aria-controls="navbarSupportedContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+							>
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+									<li class="nav-item dropdown">
+										<a
+											class="nav-link dropdown-toggle"
+											href="#"
+											id="navbarDropdown"
+											role="button"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Menus</a
+										>
+										<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+											<li>
+												<a class="dropdown-item" href="#Carte_Menus">Carte</a>
+											</li>
+											<li>
+												<a class="dropdown-item" href="#Carte_Menus">Menus</a>
+											</li>
+
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#Historical">A propos</a>
+									</li>
 
 								<li class="nav-item">
 									<a class="nav-link" href="#Legal_mentions">Mentions Légales</a>
@@ -96,11 +102,11 @@
 		<!--   Carrousel et aside coordonnées  -->
 
 		<section id="carrousel&Contacts">
-			<div class="row">
-				<h2>Carrousel photos plats et aside coordonnées</h2>
+			<div class="row my-3">
+				<h2 class="text-center">Carrousel photos plats et aside coordonnées</h2>
 				<!--      Partie Alexis  début  -->
 				<div class="container">
-					<div class="row justify-content-center">
+					<div class="row justify-content-center my-3">
 						<div class="col-lg-4 d-none d-lg-block">
 							<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 								<div class="carousel-inner">
@@ -114,7 +120,7 @@
 										<img src="assets/img/pate.png" class="d-block w-100" alt="...">
 									</div>
 								</div>
-							</div>
+							
 							<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
 								data-bs-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -125,6 +131,7 @@
 								<span class="carousel-control-next-icon" aria-hidden="true"></span>
 								<span class="visually-hidden">Next</span>
 							</a>
+						</div>
 						</div>
 						<div class="col-lg-6 pt-4 pt-lg-0">
 							<div class="card" style="width: auto;">
@@ -149,10 +156,10 @@
 		</section>
 		<!--    Menus et cartes variées-->
 		<section id="Carte_Menus">
-			<h2>MENUS et CARTES:</h2>
+			<h2 class="text-center my-3">Menus et Cartes</h2>
 			<!--   partie Raphaël début -->
-			<div class="row  justify-content-center menuCarte">
-				<div class="col-lg-5 text-center border border-white m-1">
+			<div class="row  justify-content-center menuCarte my-3 ">
+				<div class="col-lg-5 text-center m-1">
 					<div class="card">
 						<div class="card-body">
 							<h3 class="card-title">Cartes</h3>
@@ -179,7 +186,7 @@
 										<button class="accordion-button collapsed" type="button"
 											data-bs-toggle="collapse" data-bs-target="#flush-collapsePlat"
 											aria-expanded="false" aria-controls="flush-collapsePlat">
-											Carte des plats et accompagnements
+											Carte des plats 
 										</button>
 									</h4>
 									<div id="flush-collapsePlat" class="accordion-collapse collapse"
@@ -223,7 +230,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-5 text-center border border-white m-1">
+				<div class="col-lg-5 text-center m-1">
 					<div class="card">
 						<div class="card-body">
 							<h3 class="card-title">Menus</h3>
@@ -300,9 +307,9 @@
 		<!--   Présentation et historique-->
 		<section id="Historical">
 			<!--      Partie Véro 2   début   -->
-			<div class="row justify-content-center">
+			<div class="row justify-content-center my-3">
 				<div class="col">
-					<h2>Présentation et historique :</h2>
+					<h2 class="text-center my-3">Présentation et historique :</h2>
 					La Marmite de Mamie au Havre, est une brasserie aux couleurs
 					chaudes, dans le quartier St François. La carte met à l’honneur la
 					cuisine française familiale traditionnelle. Comme par exemple en
@@ -310,6 +317,10 @@
 					printemps / été, le poulet rôti, la blanquette de veau, le boudin
 					noir aux pommes, les moules frites etc… Ici l’ambiance est
 					conviviale et sympathique, on aime y prendre son temps.
+					<br>
+						<h3 class="text-center my-3">FONCTIONNALITÉS</h3>  
+						Réservations, Terrasse, Places assises, Chaises hautes disponibles, <br>
+						Sert de l'alcool, Accepte les cartes bancaires, Service de table
 				</div>
 				<!--   FIN partie Véro 2 -->
 			</div>
@@ -317,13 +328,13 @@
 		<!--  Formulaire de contact  -->
 		
 		<!--      Partie Nourhène  début   -->
-		<section id="Contact">
-			<div class="h2" class="titleform" class="container">Formulaire de Contact</div>
+		<section id="Contacts">
+			<div class="h3" class="titleform" class="container">Formulaire de Contact</div>
 			<div class="tab-content" id="myTabContent">
 				<div class="tab-pane fade show active" id="identity" role="tabpanel" aria-labelledby="identity-tab">
 					<div>
 						<form>
-							<div class="h2">Vos coordonnées</div>
+							<div class="h4">Vos coordonnées</div>
 							<div class="row">
 								<div class="col col-lg-6 "><label for="firstname">Nom :</label>
 									<input type="text" id="firstname" name="firstname" placeholder="FREDJ" required>
@@ -360,9 +371,6 @@
 				</div>
 			</div>
 		</section>
-
-		<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">On ne travaille pas c'est
-			le covid</div>
 	
 	<!--      Partie Nourhène  FIN   -->
 	</section>
@@ -449,5 +457,4 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/scriptform.js"></script>
 </body>
-
 </html>
