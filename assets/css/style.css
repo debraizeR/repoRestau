@@ -42,6 +42,9 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
   margin: auto;
 }
 
+.accordion-button{
+  color: brown !important;
+}
 
 /*   ************   css animation phrase  **********    */ 
 @keyframes defile {
