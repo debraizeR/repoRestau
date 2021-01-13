@@ -50,6 +50,9 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
   margin: auto;
 }
 
+.accordion-button{
+  color: brown !important;
+}
 
 /*   ************   css animation phrase  **********    */ 
 @keyframes defile {
@@ -120,6 +123,13 @@ height: 50px;}
   /* background-color: white; */
   margin: 20px 0px;
 }
+<<<<<<< HEAD
+=======
+#colapropos{
+  /* background-color: rgba(255, 217, 4, 0.972); */
+  padding: 1.250em;
+}
+>>>>>>> 47abf191543dfe382d8c50f394cd6753a56b965f
 
 #sendmessage {
   border: silver;
