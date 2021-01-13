@@ -7,7 +7,8 @@ document.getElementById('firstname').addEventListener('blur', function () {
     document.getElementById("pfirstname").style.color = "red";
   } else {
     document.getElementById("lastname").focus();
-    document.getElementById('pfirstname').innerHTML = " "
+    document.getElementById('pfirstname').innerHTML = " ";
+    
   }
 })
 document.getElementById('lastname').addEventListener('blur', function () {
@@ -47,5 +48,9 @@ document.getElementById('object').addEventListener('blur', function () {
   } else {
     document.getElementById('pobject').innerHTML = "";
     document.getElementById("message").focus();
+
   }
-})
+});
+/*var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+  trigger: 'focus'
+})*/

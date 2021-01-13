@@ -1,4 +1,4 @@
-/*    css  page  globale */
+/*  ********   css pour la  page  globale   *******     */
 @font-face {
   font-family: 'Orkney_regular';
   src: url('../fonts/orkney-regular-webfont.eot');
@@ -8,41 +8,66 @@
         url('../fonts/orkney-regular-webfont.svg#Orkney_regular') format('svg');
 }
 
-/*, url('../fonts/orkney-light-webfont.eot'), url('../fonts/orkney-light-webfont.svg') url('../fonts/orkney-light-webfont.ttf'), url('../fonts/orkney-light-webfont.woff')*/
 
 #corpsPage {
   max-width: 85%;
   text-align: justify;
+  /* border: 2px solid red; */
 }
 body{
   font-family: Orkney_regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color:brown;
-  background-color: rgb(255, 196, 0, 0.5)}
+  /* background-color: rgba(255, 217, 4, 0.972);; /* couleur soutenue */
+  background-color: rgb(255, 196, 0, 0.6); /* couleur pastel  */
+}
 
   /* img[alt*="facade"]{
     opacity:1;
   } */
 
-/*  css Nav bar et bannière  */
+/*   **********  css Nav bar et bannière   *******    */
 #navbarSupportedContent{
   width: auto;
 }
 #nav_bar {
-  background-color: rgb(205, 24, 31);
+  background-color: rgb(205, 24, 31); /* couleur fond rouge  */
   opacity:1;
-  justify-content: center !important; /* pour centrage des liens */
-  /* position:absolute 0px 0px; */
-  /* text-align: right ; */
+  justify-content: center; /* pour centrage des liens // A verifier */
 }
 #lien_accueil{
 padding-right: 10%; /* pour centrage joli  du lien Accueil */
 }
 .navbar-nav {
-  text-align: center; /* pour centrage des liens */
+  text-align: center;    /* pour centrage des liens */
   margin: auto;
-  /* padding-right: 20%; */
 }
 
+/*   ************   css animation phrase  **********    */ 
+@keyframes defile {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.animation1 {
+  animation: defile 5s infinite alternate;
+  font-size: 14px;
+  color: rgb(205, 24, 31);
+  /* font-weight: bold; */
+}
+#Animation1{   /*hr de séparation avec le corps */
+  height: 3px; 
+  color:rgb(205, 24, 31);
+}
+#divAnimation{
+  background-color: rgba(255, 217, 4, 0.972);
+ padding-top: 0.625em;
+ line-height: 0.938em;
+}
 
 /*      CSS pour map   */
 #map {
@@ -66,14 +91,20 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
  width: 50px;
 height: 50px;}
 
+#Contacts {
 
+  background-color: rgba(255, 217, 4, 0.972);;
+}
 /*    ********** css formulaire **********  */
-#Contact {
-  border: 3px solid rgb(205, 24, 31);
-  background-color: silver;
+#colform , #colavis{
+  background-color: white;
+  margin: 20px 0px;
+}
+#colapropos{
+  background-color: rgba(255, 217, 4, 0.972);;
+  padding: 1.250em;
 }
 
-#btnsubmit {
-  color: rgb(205, 24, 31);
+#sendmessage {
   border: silver;
 }
