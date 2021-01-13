@@ -32,13 +32,15 @@ body{
 #nav_bar {
   background-color: rgb(205, 24, 31); /* couleur fond rouge  */
   opacity:1;
-  justify-content: center; /* pour centrage des liens // A verifier */
+  justify-content: center;
+   /* pour centrage des liens // A verifier */
 }
 #lien_accueil{
 padding-right: 10%; /* pour centrage joli  du lien Accueil */
 }
 .navbar-nav {
-  text-align: center;    /* pour centrage des liens */
+  /* text-align: center;  */
+     /* pour centrage des liens */
   margin: auto;
 }
 
@@ -46,7 +48,7 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
 @keyframes defile {
   from {
     margin-left: 100%;
-    width: 300%; 
+    width: 100%; /* 300% au départ */
   }
   to {
     margin-left: 0%;
@@ -54,7 +56,7 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
   }
 }
 .animation1 {
-  animation: defile 5s infinite alternate;
+  animation: defile 7s infinite alternate;  /* 3s au départ */
   font-size: 14px;
   color: rgb(205, 24, 31);
   /* font-weight: bold; */
