@@ -99,7 +99,7 @@ height: 50px;}
 
 #Contacts {
 
-  background-color: rgba(255, 217, 4, 0.972);;
+  background-color: rgba(255, 217, 4, 0.972);
 }
 
 #listeMenu{
@@ -112,7 +112,7 @@ height: 50px;}
   margin: 20px 0px;
 }
 #colapropos{
-  background-color: rgba(255, 217, 4, 0.972);;
+  /* background-color: rgba(255, 217, 4, 0.972); */
   padding: 1.250em;
 }
 
