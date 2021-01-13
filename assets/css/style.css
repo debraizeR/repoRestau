@@ -16,16 +16,14 @@
 }
 body{
   font-family: Orkney_regular, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color:brown;
-  /* background-color: rgba(255, 217, 4, 0.972);; /* couleur soutenue */
-    /* background-color: rgba(255, 217, 4, 0.972);; /* couleur soutenue */
-    /* background-color: rgb(255, 196, 0);couleur pastel   */
+  color:brown;  
+    /* background-color: rgb(248,234,73);couleur pastel   */
   background-color: rgba(255, 151, 32, 0.9); /* couleur soutenue  */
- }
-
- .pastel{
+}
+.pastel{
   background-color:rgb(248,234,73);
  }
+
 
   /* img[alt*="facade"]{
     opacity:1;
@@ -76,12 +74,13 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
   color:rgb(205, 24, 31);
 }
 #divAnimation{
-  background-color:rgb(248,234,73);
+  background-color: rgb(248,234,73);
  padding-top: 0.625em;
  line-height: 0.938em;
+ overflow: hidden;
 }
 
-/*     ***********    CSS pour map  ************* */
+/*      CSS pour map   */
 #map {
   width: 100%;
   height: 300px;
@@ -103,33 +102,19 @@ padding-right: 10%; /* pour centrage joli  du lien Accueil */
  width: 50px;
 height: 50px;}
 
-/*   css contacts  ************  */
-
 #Contacts {
 
-  background-color:rgb(255, 196, 0);
+  background-color: rgba(255, 217, 4, 0.972);
 }
 
 #listeMenu{
   list-style-type:none;
 }
-
 .imgMenu {
   width: 20%;
 }
 
 /*    ********** css formulaire **********  */
-#colform {
-  /* background-color: white; */
-  margin: 20px 0px;
-}
-<<<<<<< HEAD
-=======
-#colapropos{
-  /* background-color: rgba(255, 217, 4, 0.972); */
-  padding: 1.250em;
-}
->>>>>>> 47abf191543dfe382d8c50f394cd6753a56b965f
 
 #sendmessage {
   border: silver;
@@ -140,4 +125,6 @@ height: 50px;}
   /* background-color: rgb(255, 196, 0);  voir class pastel */
   padding: 1.250em;
   align-items: center;
+  margin: 20px 0px;
 }
+
