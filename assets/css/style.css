@@ -111,21 +111,23 @@ height: 50px;}
   list-style-type:none;
 }
 
+.imgMenu {
+  width: 20%;
+}
+
 /*    ********** css formulaire **********  */
-#colform , #{
+#colform {
   /* background-color: white; */
   margin: 20px 0px;
-}
-#colapropos, #colavis{
-  /* background-color: rgb(255, 196, 0); */
-  padding: 1.250em;
 }
 
 #sendmessage {
   border: silver;
 }
 
-.imgMenu {
-  width: 20%;
+/*    ********** css avis et a propos **********  */
+#colapropos, #colavis{
+  /* background-color: rgb(255, 196, 0);  voir class pastel */
+  padding: 1.250em;
+  align-items: center;
 }
-
