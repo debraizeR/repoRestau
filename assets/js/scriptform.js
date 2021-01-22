@@ -51,6 +51,14 @@ document.getElementById('object').addEventListener('blur', function () {
 
   }
 });
-/*var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
-  trigger: 'focus'
-})*/
+document.getElementById('idbtnsend').addEventListener('click', function () {
+
+  if (firstname == "") {
+    document.getElementById('pfirstname').innerHTML = "Veuillez saisir votre nom svp!";
+    document.getElementById("firstname").focus();
+    document.getElementById("pfirstname").style.color = "red";
+  } else {
+window.alert("votre message a été bien envoyé !");
+  }
+})
+

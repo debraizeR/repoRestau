@@ -114,10 +114,25 @@ height: 50px;}
   width: 20%;
 }
 
-/*    ********** css formulaire **********  */
+/*    ** css formulaire **  */
+#Contacts {
+  padding: 10%;
 
-#sendmessage {
-  border: silver;
+}
+.titreform{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+label
+{
+    display: block;
+    width: 150px;
+    float: left;
+}
+#colform{
+  background-color: rgba(255, 196, 0, 0.6);
 }
 
 /*    ********** css avis et a propos **********  */
